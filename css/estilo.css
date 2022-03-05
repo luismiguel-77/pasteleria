@@ -1,0 +1,96 @@
+body{
+    height: 100%;
+}
+
+section{
+    width: 79%;
+    background: #ccc;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+
+aside{
+    float: right;
+
+    width: 19%;
+    /*visibily: hidden; */
+}
+
+footer{
+    position: relative;
+    margin-top: -50px;
+    height: 40px;
+    padding: 5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
+
+figure{
+	display: inline; margin: 2 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+.booton{
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
